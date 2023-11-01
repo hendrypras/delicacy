@@ -1,0 +1,34 @@
+.container__detail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper__more__recipies {
+  margin-top: 24px;
+  padding-left: 8.5rem;
+  .title__more__recipies {
+    color: #404040;
+    width: 149.991px;
+    height: 38.847px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 23.978px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .wrapper__card__more__rec {
+    display: flex;
+    gap: 41px;
+    overflow-x: scroll;
+  }
+  .wrapper__card__more__rec {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .wrapper__card__more__rec::-webkit-scrollbar {
+    display: none;
+  }
+}

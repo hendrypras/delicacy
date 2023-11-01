@@ -1,0 +1,13 @@
+.container__favorite {
+  width: 100%;
+  height: 100%;
+  margin-top: 51px;
+  .wrapper__card__more__rec {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    gap: 51px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
